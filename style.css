@@ -95,9 +95,29 @@ transform: scale(120%);
     font-family: Arial;
 }
 .r0 .r1 .r2 .r4 .r5 i{
-    color: #089da1;
+    color: #07abb1;
 }
 .r0 .r1 .r2 .r4 p {
     font-size: 18px;
-    font-family: rial;
+    font-family: Arial;
 }
+/* 3 */
+.b0 {
+    width: 100%;
+    min-height: 45vh;
+    background-image: url(image/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b0 .b1{
+    padding: 10px 25px;
+    border: 2px solid #07abb1;
+    background-color: #07abb1;
+    color: white;
+    font-family: Arial;
+    top: 60%;
+    left: 8%;
+    position: relative;
+
+}
+
