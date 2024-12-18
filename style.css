@@ -1,0 +1,60 @@
+/* 1 */
+.a0 h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: Arial;
+}
+.a0 .a1 {
+    width: 85%; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px; 
+    grid-row-gap: 17px; 
+    margin-left: 90px;
+
+}
+.a0 .a1 .a2{
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    border: 1px solid grey;
+    
+}
+.a0 .a1 .a2:hover{
+    box-shadow:0 0 7px #07abb1;
+}
+.a0 .a1 .a2 .a3{
+    width: 150px;
+    height: 230px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.a0 .a1 .a2 .a4 p{
+    font-family: queen of camelot;
+    font-size: 20px;
+    margin-bottom: 0px ;
+}
+.a0 .a1 .a2 .a3 img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.4s;
+    margin: 0 auto;
+    
+}
+.a0 .a1 .a2:hover .a3 img{
+transform: scale(120%);
+}
+.a0 .a1 .a2 .a4 .a5{
+    padding: 10px 25px;
+    border: 2px solid #07abb1;
+    text-decoration: none;
+    color: #000;
+}
+
+.a0 .a1 .a2 .a4 i{
+    margin-bottom: 20px;
+}
+
+
+
