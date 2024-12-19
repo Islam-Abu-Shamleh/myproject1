@@ -69,8 +69,8 @@ transform: scale(120%);
     margin-left: 30px;
 }
 .r0 .r1 .r2{
-    width: 330px;
-    height: 270px;
+    width: 300px;
+    height: 300px;
     box-shadow: 0 0 8px #07abb1;
     padding: 20px;
     
@@ -118,6 +118,8 @@ transform: scale(120%);
     top: 60%;
     left: 8%;
     position: relative;
+    text-decoration: none;
+
 
 }
 /* 4 */
@@ -169,6 +171,92 @@ transform: scale(120%);
 }
 .o0 .o1 .o2 .o4  i{
    color: #07abb1;
+}
+/* 5 */
+footer{
+    background: rgba(128, 128, 128, 0.295);
+    height: 350px;
+}
+
+footer .f0{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+footer .f0 .f1 img{
+    width: 100px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+
+}
+
+footer .f0 .f1 p{
+    width: 300px;
+    font-family: Arial;
+    font-size: 15px;
+    
+}
+
+footer .f0 .f1 h1{
+    font-size: 30px;
+    color: #000;
+    font-family: Arial;
+
+}
+
+footer .f0 .f1 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 7px;
+}
+
+footer .f0 .f1 i{
+    margin-right: 15px;
+}
+
+
+
+footer .f0 .f1 .f2{
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgba(147, 141, 141, 0.395);
+}
+
+footer .f0 .f1 .f2 input{
+    width: 200px;
+    padding: 2px 0;
+    position: relative;
+    top: 17%;
+    left: 6%;
+    border: none;
+    font-size:14px;
+    background: none;
+    margin-bottom:15px ;
+}
+
+footer .f0 .f1 .f2 button{
+    width: 100px;
+    height: 30px;
+    background:#07abb1 ;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+footer .f4{
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+
+footer .f4 span{
+    color: #07abb1;
+    margin-left: 15px;
 }
 
 
