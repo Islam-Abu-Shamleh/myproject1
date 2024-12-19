@@ -258,6 +258,45 @@ footer .f4 span{
     color: #07abb1;
     margin-left: 15px;
 }
+@media (max-width: 1024px) { 
+    .a0 h1 {
+        font-size: 35px;
+    }
+    .a0 .a1 {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 50px;
+    }
+    .a0 .a1 .a2 {
+        width: 200px;
+        height: 300px;
+    }
+    .a0 .a1 .a2 .a3 {
+        width: 120px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 768px) { 
+    .a0 h1 {
+        font-size: 25px;
+    }
+    .a0 .a1 {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 20px;
+    }
+    .a0 .a1 .a2 {
+        width: 150px;
+        height: 250px;
+    }
+    .a0 .a1 .a2 .a3 {
+        width: 100px;
+        height: 150px;
+    }
+    .a0 .a1 .a2 .a4 p {
+        font-size: 16px;
+    }
+}
+
 
 
 
