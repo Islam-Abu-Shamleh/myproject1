@@ -1,6 +1,317 @@
-h1{
-    color:rgb(204, 142, 142);
+*{
+    margin: 0;
+    font-family: sans-serif;
 }
-body{
-    background-color: rgb(170, 95, 3);
+
+section{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 10px #089da1;
+    background:white;
+    z-index: 100;
+    position: fixed;
+}
+
+.logo img{
+    width: 100px;
+    margin: 10px 0;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color:black;
+}
+
+ li a:hover{
+    color: #089da1;
+}
+
+.icons a {
+    color: black;
+}
+
+.icons i:hover{
+    color: #089da1;
+}
+
+ .home{
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    top: 10%;
+}
+
+.home h1{
+    position: relative;
+    font-size: 50px;
+    top: 80px;
+    left: 30px;
+}
+
+ .home h1 span{
+    color: #089da1;
+}
+
+ .home p{
+    width: 600px;
+    text-align: justify;
+    position: relative;
+    top: 120px;
+    left: 30px;
+}
+.home_img img{
+    width: 800px;
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+
+.Learn_more{
+    background: #089da1;
+    padding: 10px 20px;
+    position: relative;
+    left: 30px;
+    top: 150px;
+    text-decoration: none;
+    color:white;
+}
+
+.boxes{
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+}
+
+ .boxes1{
+    width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    text-align: center;
+    height: auto;
+    width: 300px;
+    box-shadow: 0 0 10px #089da1;
+    padding: 10px 10px;
+}
+
+.box i{
+    color: #089da1;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+
+ .box h3{
+    margin-bottom: 10px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 5px;
+}
+
+
+::-webkit-scrollbar-thumb{
+    background: #089da1;
+    border-radius: 10px;
+}
+
+.about{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ .about_image img{
+    width: 600px;
+}
+
+ .about_text h1{
+    font-size: 50px;
+    bottom: 30px;
+    position: relative;
+}
+
+.about_text p{
+    margin-bottom: 10px;
+    line-height: 20px;
+    width: 600px;
+    text-align: justify;
+}
+
+ .about_button{
+    padding: 10px 20px;
+    top: 50px;
+    background: #089da1;
+    color:white;
+    text-decoration: none;
+    position: relative;
+}
+
+.featured_books{
+    width: 100%;
+    padding: 70px 0;
+}
+
+.featured_books h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.featured_book{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow-x: scroll;
+}
+
+.featured_book1{
+    width: 250px;
+    height: 400px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid gray;
+    margin: 20px;
+}
+
+ .featured_book1:hover{
+    box-shadow: 0 0 5px #089da1;
+}
+
+.featured_book_img img{
+    width: 150px;
+}
+
+ .featured_book_text h2{
+    margin: 10px;
+}
+
+.writer{
+    color:gray;
+}
+
+.categories{
+    color: #089da1;
+    margin-top: 10px;
+}
+
+.book_price{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+ .book_price sub{
+    font-weight: 100;
+    padding: 10px;
+}
+
+ .Learn_more_featured{
+    padding: 10px 20px;
+    color: black;
+    border: 2px solid #089da1;
+    text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+    .home p {
+        width: 800px;
+    }
+    .home_img img {
+        width: 900px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
+    .home h1 {
+        font-size: 40px;
+        top: 30px;
+        left: 0;
+    }
+    .home p {
+        width: 90%;
+        top: 50px;
+        left: 0;
+    }
+    .home_img img {
+        width: 500px;
+        top: 0;
+        left: 0;
+    }
+}
+@media (max-width: 767px) {
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
+    .home h1 {
+        font-size: 30px;
+        top: 10px;
+        left: 0;
+    }
+    .home p {
+        width: 90%;
+        top: 20px;
+        left: 0;
+    }
+    .home_img img {
+        width: 300px;
+        top: 0;
+        left: 0;
+    }
+    .Learn_more {
+        top: 30px;
+        left: 0;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    li {
+        padding: 5px;
+    }
+    .boxes1 {
+        flex-direction: column;
+    }
+    .box {
+        width: 90%;
+        margin: 10px auto;
+    }
 }
